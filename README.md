@@ -39,5 +39,7 @@ Graph: The overall workflow structure
 ----------------------------------------------------------------------------------------
 
 Nodes: Functions that take state and return updated state
+Graph: Add nodes
+Edge: Add edges or conditional edges to connect multiple nodes
 
 
