@@ -63,6 +63,11 @@ Routing: Input given to one LLM and output to two different LLMs
 
 ----------------------------------------------------------------------------------------
 
-
+PROMPT CHAINING: 
+- Input goes to LLM Call 1
+- LLM Call 1 outputs to Gate
+- IF FAILS: Exit, IF GOOD: Pass to LLM Call 2
+- Outputs to LLM Call 3
+- Finally outputs result
 
 
