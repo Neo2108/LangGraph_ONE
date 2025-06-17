@@ -18,4 +18,8 @@ AGENT CONTROL Vs. RELIABILITY TRADE-OFF:
 - Autonomous Agents: High control level, low reliability
 - LangGraph: Provides a good balance between both
 
-LangGraph: 
+LangGraph: Framework for buliding stateful, multi-agent applications with LLMs, using graph-based workflows
+-> State management, Graph Architecture, Multi-agent, Human-in-the-loop
+
+----------------------------------------------------------------------------------------
+
