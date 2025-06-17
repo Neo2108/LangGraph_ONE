@@ -23,3 +23,21 @@ LangGraph: Framework for buliding stateful, multi-agent applications with LLMs, 
 
 ----------------------------------------------------------------------------------------
 
+Four Layers in the Ecosystem: Model Providers -> AI Framework Foundation -> Orchestration & Workflow -> Application Layer
+
+Ex. (OpenAI/Gemini) -> (LangChain/LlamaIndex/Haystack) -> (LangGraph/CrewAI) -> (Customer support/Research Assistant)
+
+----------------------------------------------------------------------------------------
+
+CORE CONCEPTS of LangGraph:
+
+Nodes: Functions that perform computation
+Edges: Connections that route data between nodes
+State: Shared data structure passed between nodes
+Graph: The overall workflow structure
+
+----------------------------------------------------------------------------------------
+
+Nodes: Functions that take state and return updated state
+
+
