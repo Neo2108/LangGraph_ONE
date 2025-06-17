@@ -38,8 +38,31 @@ Graph: The overall workflow structure
 
 ----------------------------------------------------------------------------------------
 
+WRITE:
+- State Schema
+- Create required nodes
+- Add nodes
+- Add edges
+- Compile graph
+
 Nodes: Functions that take state and return updated state
 Graph: Add nodes
 Edge: Add edges or conditional edges to connect multiple nodes
+
+----------------------------------------------------------------------------------------
+
+Workflows -> Predefined code paths with LLMs and tools
+Agents -> LLMs dynamically direct their own processes
+
+Agent: LLM Call through query, LLM directs action to a specific TOOL and then outputs
+Prompt Chaining: In -> Out
+Parallelizatoin: Multiple LLMs called and multiple outputs given
+Orchestrator-Worker: Input goes to orchestrator, orchestrator breaks up tasks between workers and then sends to a synthesizer
+Evaluator-optimizer: Input goes to Generator LLM and then that data goes to an Evaluator LLM, then output is given
+Routing: Input given to one LLM and output to two different LLMs
+
+----------------------------------------------------------------------------------------
+
+
 
 
