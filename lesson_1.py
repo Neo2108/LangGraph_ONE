@@ -17,3 +17,5 @@ chat_completion = client.chat.completions.create(
 
 chat_completion.choices[0].message.content
 
+
+
